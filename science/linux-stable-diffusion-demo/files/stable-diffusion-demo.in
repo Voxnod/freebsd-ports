@@ -1,0 +1,6 @@
+#!/bin/sh
+
+LINUXBASE=$(sysctl -n compat.linux.emul_path)
+
+export LD_PRELOAD=${LINUXBASE}/usr/share/stable-diffusion-environment/dummy-uvm.so
+${LINUXBASE}/bin/python3 %%DATADIR%%/stable-diffusion-sample.py

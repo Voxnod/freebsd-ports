@@ -1,0 +1,2 @@
+bin/stable-diffusion-demo
+%%DATADIR%%/stable-diffusion-sample.py

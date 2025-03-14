@@ -1,0 +1,5 @@
+To run the Stable Diffusion demonstration script, the following requirements
+must be met:
+
+1. An NVIDIA GPU must be present in the system.
+2. The NVIDIA driver kernel module must be loaded.
